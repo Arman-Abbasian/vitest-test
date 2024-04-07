@@ -5,9 +5,7 @@ type ResetButtonProps={
 function ResetButton(props:ResetButtonProps) {
     const {onResetHandler}=props
   return (
-    <button onClick={onResetHandler}>
-        +
-    </button>
+    <button onClick={onResetHandler}> reset </button>
   )
 }
 

@@ -17,6 +17,7 @@ function VitestButton() {
     }
   return (
     <div>
+        <p>{count}</p>
         <IncreaseButton onIncreaseHandler={increaseHandler}/>
         <DecreaseButton onDecreaseHandler={decreaseHandler}/>
         <ResetButton onResetHandler={resetHandler} />
