@@ -1,6 +1,8 @@
+type IncreaseButtonProps={
+    onIncreaseHandler:()=>void
+}
 
-
-function IncreaseButton(props) {
+function IncreaseButton(props:IncreaseButtonProps) {
     const {onIncreaseHandler}=props
   return (
     <button onClick={onIncreaseHandler}>
