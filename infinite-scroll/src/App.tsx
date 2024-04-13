@@ -2,6 +2,7 @@
 import InfiniteScrollPosts from "./components/IntersectionObserver";
 import TodoList_infiniteScroll from "./components/TodoList_infiniteScroll";
 import UserList from "./components/UserList";
+import ReactInfiniteScrollPackage from "./components/react-infinite-scroll-package";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <UserList /> */}
       {/* <TodoList />  */}
       {/* <TodoList_infiniteScroll /> */}
-      <InfiniteScrollPosts />
+      {/* <InfiniteScrollPosts /> */}
+      <ReactInfiniteScrollPackage />
     </>
   );
 }

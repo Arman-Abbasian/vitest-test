@@ -36,7 +36,6 @@ const InfiniteScrollPosts: React.FC = () => {
         setLoading(false);
       }
     };
-
     // Create IntersectionObserver when component mounts
     observer.current = new IntersectionObserver(
       (entries) => {
