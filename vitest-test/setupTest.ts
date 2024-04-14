@@ -1,7 +1,7 @@
 /// <reference types="vitest/globals" />
 import '@testing-library/jest-dom';
 import "@testing-library/jest-dom/extend-expect";
-import { server } from './components/Button/components/test/mocks/server';
+import { server } from './src/components/Button/components/test/mocks/server';
 
 
 
